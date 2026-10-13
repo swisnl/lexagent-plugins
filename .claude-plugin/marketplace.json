@@ -1,0 +1,17 @@
+{
+  "name": "lexagent",
+  "description": "LexAgent plugins: Dutch and EU law from the official sources.",
+  "owner": {
+    "name": "SWIS",
+    "url": "https://www.swis.nl"
+  },
+  "plugins": [
+    {
+      "name": "lexagent",
+      "source": "./plugins/lexagent",
+      "description": "Dutch and EU legislation, case law, local regulations, official publications and council information from the official open-data sources, with skills for legal research and checking legal claims.",
+      "category": "legal",
+      "tags": ["law", "legal-research", "netherlands", "eu-law", "case-law"]
+    }
+  ]
+}

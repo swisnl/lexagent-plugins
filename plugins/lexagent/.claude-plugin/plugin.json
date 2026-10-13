@@ -1,0 +1,19 @@
+{
+  "name": "lexagent",
+  "displayName": "LexAgent",
+  "version": "0.1.0",
+  "description": "Dutch and EU legislation, case law, local regulations, official publications and council information from the official open-data sources, with skills for legal research and checking legal claims.",
+  "author": {
+    "name": "SWIS",
+    "url": "https://www.swis.nl"
+  },
+  "homepage": "https://lexagent.nl",
+  "repository": "https://github.com/swisnl/lexagent-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["law", "legal research", "netherlands", "eu law", "case law", "wetgeving", "jurisprudentie"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://lexagent.nl",
+  "supportUrl": "https://lexagent.nl/support",
+  "privacyPolicyUrl": "https://lexagent.nl/privacy",
+  "termsOfServiceUrl": "https://lexagent.nl/voorwaarden"
+}
