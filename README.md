@@ -39,11 +39,12 @@ a custom connector with the URL `https://lexagent.nl/mcp`.
 plugins/lexagent/
   .claude-plugin/plugin.json        Claude plugin manifest
   .mcp.json                         Claude MCP server entry
-  plugin.json                       ChatGPT (Agent Plugins) manifest, listing and review cases
+  plugin.json                       ChatGPT (Agent Plugins) manifest and listing
   mcp.json                          ChatGPT MCP server entry
   skills/                           Skills shared by both
   assets/                           Icon
-scripts/build-chatgpt-zip.sh        Builds the ZIP for platform.openai.com/plugins
+openai/submission.json              Review cases and publication settings for the ChatGPT directory
+scripts/build-chatgpt-zip.sh        Builds the ChatGPT ZIPs: one for a workspace, one for submission
 ```
 
 Raise `version` in both `plugin.json` files with every release. Validate the Claude plugin with

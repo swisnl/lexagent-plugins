@@ -10,7 +10,13 @@
   "homepage": "https://lexagent.nl",
   "repository": "https://github.com/swisnl/lexagent-plugins",
   "license": "Apache-2.0",
-  "keywords": ["law", "legal research", "netherlands", "eu law", "case law"],
+  "keywords": [
+    "law",
+    "legal research",
+    "netherlands",
+    "eu law",
+    "case law"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -40,67 +46,6 @@
         "brandColorDark": "#DCB055",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
-      },
-      "review": {
-        "test_cases": {
-          "positive": [
-            {
-              "description": "Quote a national statutory article",
-              "prompt": "What does article 6:162 of the Dutch Civil Code (Burgerlijk Wetboek) say? Quote it.",
-              "tools_triggered": "legislation-search, legislation-document",
-              "expected_behavior": "Finds Burgerlijk Wetboek Boek 6, reads article 6:162 and quotes its three paragraphs with the citation and a link to wetten.overheid.nl."
-            },
-            {
-              "description": "Find a local regulation of a municipality",
-              "prompt": "What does the APV of Amsterdam say about placing a terrace (terras) outside a café?",
-              "tools_triggered": "local-regulation-search, local-regulation-document",
-              "expected_behavior": "Finds the current Algemene Plaatselijke Verordening of Amsterdam, reads the relevant articles and answers with article citations and a link to lokaleregelgeving.overheid.nl."
-            },
-            {
-              "description": "Summarise a Dutch Supreme Court judgment by ECLI",
-              "prompt": "Summarise the Urgenda judgment of the Hoge Raad, ECLI:NL:HR:2019:2007, and quote its decision.",
-              "tools_triggered": "case-law-document",
-              "expected_behavior": "Reads the judgment, summarises the facts and reasoning, quotes the operative part and cites the ECLI with a link to uitspraken.rechtspraak.nl."
-            },
-            {
-              "description": "EU legislation and the CJEU case law interpreting it",
-              "prompt": "Show article 6 of the GDPR and list CJEU judgments that interpret it.",
-              "tools_triggered": "eu-law-search, eu-law-document, eu-case-law-search",
-              "expected_behavior": "Reads article 6 of Regulation (EU) 2016/679 from EUR-Lex with its CELEX citation and lists CJEU decisions interpreting the regulation with their case numbers and ECLIs."
-            },
-            {
-              "description": "Council decision-making",
-              "prompt": "Which motions about solar panels (zonnepanelen) did the Arnhem municipal council vote on, and what was the result?",
-              "tools_triggered": "council-search, council-document",
-              "expected_behavior": "Finds motions from the Arnhem council, reads them and reports each motion's title, date and result with a link to the council's own portal, noting that council information is context, not binding law."
-            }
-          ],
-          "negative": [
-            {
-              "description": "Write action the plugin does not offer",
-              "prompt": "Delete the outdated version of the Amsterdam APV from the government website."
-            },
-            {
-              "description": "Law outside the Netherlands and the EU",
-              "prompt": "Draft an operating agreement for a Delaware LLC under US law."
-            },
-            {
-              "description": "Unrelated question",
-              "prompt": "What will the weather be in Amsterdam tomorrow?"
-            }
-          ]
-        },
-        "demo_recording_url": "https://lexagent.nl/demo",
-        "commerce": false
-      },
-      "publication": {
-        "release_notes": "First release: Dutch and EU legislation, case law, local regulations, official publications and council information.",
-        "translations": {
-          "nl-NL": {
-            "subtitle": "Nederlands en EU-recht, met bron",
-            "description": "LexAgent geeft ChatGPT de officiële teksten van het Nederlandse en Europese recht: wetten en regelingen, lokale regelgeving, officiële bekendmakingen, rechtspraak, EUR-Lex, het Hof van Justitie en raadsinformatie. Elk document komt met een bronvermelding en een link naar de officiële bron. Alleen-lezen; juridische informatie, geen juridisch advies. Een LexAgent-account is nodig."
-          }
-        }
       }
     }
   }
