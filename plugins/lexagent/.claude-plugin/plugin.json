@@ -1,7 +1,7 @@
 {
   "name": "lexagent",
   "displayName": "LexAgent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dutch and EU legislation, case law, local regulations, official publications and council information from the official open-data sources, with skills for legal research and checking legal claims.",
   "author": {
     "name": "SWIS",

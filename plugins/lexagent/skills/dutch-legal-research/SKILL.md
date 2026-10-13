@@ -35,6 +35,13 @@ Search one concept at a time and vary the term after a miss rather than repeatin
 a source that should govern the question is not available (an omgevingsplan, unpublished case law),
 say that plainly instead of concluding that no rule exists.
 
+Rules move. When an article you expected reads "vervallen", or a topic clearly continues outside the
+regulation you are reading, find where it went before answering: a municipality moved permits and
+terrace rules from its APV into a Verordening fysieke leefomgeving or the omgevingsplan, a national
+rule may now sit in the Omgevingswet. Read that regulation too, for the same peildatum, and say which
+regulation each part of the answer comes from. When comparing two dates, compare every regulation that
+held the rule on either date, not only the one that holds it today.
+
 ## 3. Answer
 
 - Lead with the answer, then the basis.

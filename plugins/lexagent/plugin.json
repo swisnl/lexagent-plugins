@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lexagent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dutch and EU law from the official open-data sources: legislation, case law, local regulations, official publications and council information.",
   "author": {
     "name": "SWIS",

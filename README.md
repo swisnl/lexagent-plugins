@@ -44,7 +44,7 @@ plugins/lexagent/
   skills/                           Skills shared by both
   assets/                           Icon
 openai/submission.json              Review cases and publication settings for the ChatGPT directory
-scripts/build-chatgpt-zip.sh        Builds the ChatGPT ZIPs: one for a workspace, one for submission
+scripts/build-chatgpt-zip.sh        Builds the ChatGPT ZIPs: submission (mcp.json) or workspace (.app.json)
 ```
 
 Raise `version` in both `plugin.json` files with every release. Validate the Claude plugin with

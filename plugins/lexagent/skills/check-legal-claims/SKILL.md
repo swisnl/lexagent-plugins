@@ -22,6 +22,15 @@ For each claim, read the source that governs it with the LexAgent document tools
 claim depends on interpretation. Check the reference too: an article number that moved or a
 regulation that was repealed or replaced is a finding in itself.
 
+Also check what a text must say but does not. For a decision (besluit) of a government body that is
+at least:
+
+- **Statement of reasons** (art. 3:46 and 3:47 Awb): the grounds and, where possible, the legal basis.
+- **Objection clause** (art. 3:45 Awb): that objection or appeal is possible, the period, and the body
+  to send it to. A wrong period is a claim to check; a missing body is an omission to report.
+
+Report an omission as its own row, quoting the passage it should have been part of.
+
 ## 3. Give one verdict per claim
 
 Use exactly one of these statuses:
