@@ -9,10 +9,10 @@
           "expected_behavior": "Finds Burgerlijk Wetboek Boek 6, reads article 6:162 and quotes its three paragraphs with the citation and a link to wetten.overheid.nl."
         },
         {
-          "description": "Find a local regulation of a municipality",
-          "prompt": "What does the APV of Amsterdam say about placing a terrace (terras) outside a café?",
+          "description": "Compare a local regulation on two dates",
+          "prompt": "What has changed in the terrace rules of the APV of Leiden since 1 January 2021?",
           "tools_triggered": "local-regulation-search, local-regulation-document",
-          "expected_behavior": "Finds the current Algemene Plaatselijke Verordening of Amsterdam, reads the relevant articles and answers with article citations and a link to lokaleregelgeving.overheid.nl."
+          "expected_behavior": "Finds the APV of Leiden in force on 1 January 2021 (CVDR645899_3) and today, compares the terrace articles and reports the additions to article 2:31 (such as the 30 ppm carbon monoxide limit and the ban on polluting the canals from a terrace), with links to both versions on lokaleregelgeving.overheid.nl."
         },
         {
           "description": "Summarise a Dutch Supreme Court judgment by ECLI",
@@ -27,10 +27,10 @@
           "expected_behavior": "Reads article 6 of Regulation (EU) 2016/679 from EUR-Lex with its CELEX citation and lists CJEU decisions interpreting the regulation with their case numbers and ECLIs."
         },
         {
-          "description": "Council decision-making",
-          "prompt": "Which motions about solar panels (zonnepanelen) did the Arnhem municipal council vote on, and what was the result?",
+          "description": "How a council voted, per party",
+          "prompt": "How did the Hoorn municipal council vote on the motion 'Dieren als volwaardig medebewoner'?",
           "tools_triggered": "council-search, council-document",
-          "expected_behavior": "Finds motions from the Arnhem council, reads them and reports each motion's title, date and result with a link to the council's own portal, noting that council information is context, not binding law."
+          "expected_behavior": "Finds the motion of 22 September 2026, reports that it was rejected with 11 votes in favour and 23 against, lists the votes per party and links the council's own portal, noting that council information is decision-making context, not law."
         }
       ],
       "negative": [
