@@ -16,7 +16,7 @@
         },
         {
           "description": "Summarise a Dutch Supreme Court judgment by ECLI",
-          "prompt": "Summarise the Urgenda judgment of the Hoge Raad, ECLI:NL:HR:2019:2007, and quote its decision.",
+          "prompt": "Summarise the Urgenda judgment of the Hoge Raad, ECLI:NL:HR:2019:2006, and quote its decision.",
           "tools_triggered": "case-law-document",
           "expected_behavior": "Reads the judgment, summarises the facts and reasoning, quotes the operative part and cites the ECLI with a link to uitspraken.rechtspraak.nl."
         },
